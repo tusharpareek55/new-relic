@@ -1,5 +1,5 @@
-condition = {
-  "0" = {
+condition = [
+  {
 
     account_id                     = 4048566
     type                           = "static"
@@ -30,9 +30,9 @@ condition = {
       threshold_duration    = 600
       threshold_occurrences = "ALL"
     }
-  }
+  },
 
-  "1" = {
+   {
     account_id                     = 4048566
     type                           = "static"
     name                           = "My_alert_condition2"
@@ -63,5 +63,5 @@ condition = {
       threshold_occurrences = "ALL"
     }
   }
-}
+]
 

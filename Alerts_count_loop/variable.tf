@@ -1,3 +1,3 @@
 variable "condition" {
-  type = map(any)
+  type = list(map(any))
 }
