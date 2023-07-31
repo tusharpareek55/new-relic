@@ -7,7 +7,7 @@ resource "newrelic_nrql_alert_condition" "firstAlert" {
   for_each = var.condition
 
   account_id                     = each.value.account_id
-  policy_id                      = newrelic_alert_policy.foo.id
+  policy_id                      = newrelic_alert_policy.firstAlertP.id
   type                           = each.value.type
   name                           = each.value.name
   description                    = each.value.description
